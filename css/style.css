@@ -1,0 +1,1041 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    /* perspective: 0px; */
+    
+  }
+  
+  .home {
+    width: 100%;
+    background-image: url(../images/SL-091319-23410-49.jpg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+   
+  }
+  header ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 17px;
+    margin-right: 60px;
+  }
+  
+  header ul li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+  }
+  
+  .logo {
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    border-radius: 50%;
+  }
+  
+  header {
+    height: 340px;
+    width: 100%;
+    overflow: auto;
+
+  }
+  .search1 {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  .sear{
+    float: left;
+    width: 400px;
+    height: 30px;
+    margin-left: 180px;
+    margin-top: 17px;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 610px;
+    top: 25px;
+  }
+  header ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+
+
+
+
+
+
+
+
+
+  
+.head-box::after{
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 20px;
+  top: 0;
+  right: 0;
+  background-color: white;
+  transition: 0.25s;
+   transition-timing-function:ease-out;
+  transform:scale(0);
+}
+
+.head-box:hover::after{
+  transform:scale(1);
+}
+
+.head-box::before{
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  background-color: white;
+  transition: 0.25s;
+  transition-timing-function:ease-out;
+  transform:scale(0);
+}
+
+.head-box:hover::before{
+  transform:scale(1);
+}
+
+a::after{
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 2px;
+  top: 0;
+  left: 0;
+  background-color:white;
+  transition-duration: 0.15s;
+  transition-delay:0.13s;
+  transition-timing-function:ease-in;
+}
+.link1 a:hover::after{
+  width: 60px;
+}
+
+.link5 a:hover::after{
+  width: 88px;
+}
+.link2 a:hover::after{
+  width: 50px;
+}
+.link3 a:hover::after{
+  width: 68px;
+}
+.link4 a:hover::after{
+  width: 92px;
+}
+header a::before {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 2px;
+    bottom:0;
+    left: 0;
+    background-color: white;
+    transition-duration: 0.15s;
+    transition-delay: 0.13s;
+    transition-timing-function: ease-in;
+}
+
+.link1 a:hover::before{
+  width: 60px;
+}
+
+.link5 a:hover::before{
+  width: 88px;
+}
+.link2 a:hover::before{
+  width: 50px;
+}
+.link3 a:hover::before{
+  width: 68px;
+}
+.link4 a:hover::before{
+  width: 92px;
+}
+
+  .information {
+    width: 230px;
+    height: 270px;
+    position: absolute;
+    top: 50px;
+    background-color: #003B79;
+    background-color: rgba(0, 59, 121, 0.3);
+    padding-left: 7px;
+   display: none;
+    transition: 0.5s;
+    z-index: 400;
+  }
+  
+  table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    font-size: 15px;
+    color: white;
+  }
+  .link1:hover .information {
+  display: block;
+  }
+  #zero {
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    font-size: 15px;
+    color: white;
+  }
+  .inform {
+    width: 580px;
+    height: 300px;
+    position: absolute;
+    top: 45%;
+    left: 37%;
+  
+  
+  }
+  .inform h2 {
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+  }
+  
+  .inform button {
+    width: 180px;
+    height: 45px;
+    border-radius: 25px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .last {
+    margin-right: 10px;
+  }
+  
+  .phone2,
+  .phone5,
+  .phone8,
+  .iphone2 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .phone1,
+  .phone2,
+  .phone3,
+  .phone4,
+  .phone5,
+  .phone6,
+  .phone7,
+  .phone8,
+  .phone9,
+  .phone10,
+  .phone11,
+  .phone12,
+  .iphone3,
+  .iphone2,
+  .iphone1 {
+    height: 100%;
+    width: 30%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s;
+    float: left;
+    border: solid black;
+  
+  }
+  
+  
+  .img1 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    backface-visibility: hidden;
+  }
+  
+  .img1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    backface-visibility: hidden;
+  }
+  
+  
+  
+  .info1 {
+  
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: rotateY(180deg);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    font-style: italic;
+    background-color: #003B79;
+    background-color: rgba(0, 59, 121, 0.1);
+  
+  
+  }
+  
+  .phone1:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .info1 p i {
+    color: rgb(255, 191, 0);
+    text-align: center;
+  }
+  
+  
+  .phone2:hover {
+    transform: rotateY(180deg);
+  }
+  
+  
+  
+  .iphone1:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .iphone2:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .phone3:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .iphone3:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .phone4:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .phone5:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .phone6:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .phone7:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .phone8:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .phone9:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .phone10:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .phone11:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .phone12:hover {
+    transform: rotateY(180deg);
+  }
+  
+  
+  .page1,
+  .page2,
+  .page3,
+  .page4,
+  .page5 {
+    overflow: auto;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+  
+  }
+  
+  .line {
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+    transition: 0.2s;
+  }
+  
+  .page1-title:hover .line {
+    width: 500px;
+  }
+  
+  .page3-title:hover .line {
+    width: 500px;
+  }
+  
+  #title-page1,
+  #title-page3 {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .page1-title,
+  .page1-title {
+    width: 600px;
+    height: 20px;
+    margin: auto;
+  }
+  
+  .line1 {
+    width: 50px;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+    transition: 0.2s;
+  }
+  
+  .page4-title:hover .line1 {
+    width: 100px;
+  }
+  
+  #title-page4 {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .page4-title {
+    width: 600px;
+    height: 20px;
+    margin: auto;
+  }
+  
+  .part2 {
+    height: 320px;
+    width: 400px;
+    border: solid black;
+    margin: auto;
+    opacity: 0.7;
+    padding-left: 30px;
+    color: white;
+    background-color: #003B79;
+  
+  }
+  
+  .part2 h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .part2 input {
+    width: 300px;
+    height: 30px;
+  }
+  
+  .go {
+    height: 50px;
+    width: 150px;
+    border: solid;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    display: inline-block;
+  
+  }
+  
+  .go {
+    text-decoration: none;
+    color: white;
+  
+  }
+  
+  .fb {
+    height: 50px;
+    width: 150px;
+    border: solid;
+    margin-left: 20px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 15px;
+    font-size: 20px;
+  
+  }
+  
+  .fb {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .part2 button {
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border-color: white;
+    color: black;
+    font-size: 20px;
+  }
+  
+  .img1 i {
+    font-size: 200px;
+    color: black;
+  }
+  
+  .continre {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    overflow: auto;
+  
+  }
+  
+  .sale1,
+  .sale2,
+  .sale3,
+  .sale4 {
+    width: 22%;
+    height: 370px;
+  
+    border-color: white;
+    float: left;
+    transition: transform .2s;
+    text-align: center;
+    background-color: rgba(0, 59, 121, 0.05);
+  }
+  
+  .sale2 {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  
+  .sale3 {
+    margin-right: 3%;
+  }
+  
+  .continre img {
+    width: auto;
+    height: 270px;
+  
+    padding-top: 50px;
+  }
+  
+  .blue {
+    color: #19449b;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  
+  .continre i {
+    padding: 0px 2px;
+    color: rgb(255, 191, 0);
+  }
+  
+  .sale1:hover {
+    transform: scale(1.1);
+  }
+  
+  .sale2:hover {
+    transform: scale(1.1);
+  }
+  
+  .sale3:hover {
+    transform: scale(1.1);
+  }
+  
+  .sale4:hover {
+    transform: scale(1.1);
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .continre h4 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+    font-style: italic;
+  }
+  
+  .underline:hover .line {
+    width: 350px;
+  }
+  
+  .news a {
+    display: block;
+    font-size: 30px;
+    color: white;
+    width: 50px;
+    height: 40px;
+    border: solid black;
+    text-decoration: none;
+    /* border-radius: 25px; */
+    text-align: center;
+    padding-top: 4px;
+    overflow: hidden;
+  }
+  
+  .news {
+    width: 200px;
+    height: 230px;
+    position: absolute;
+    top: 30%;
+    position: fixed;
+    z-index: 600;
+  }
+  
+  .news-icons1 {
+    background-color: #3b5998;
+  }
+  
+  .news-icons2 {
+    background-color: black;
+  }
+  
+  .news-icons3 {
+    background-color: #0072b1;
+  }
+  
+  .news-icons4 {
+    background-color: rgb(107, 165, 20);
+  }
+  
+  .news-icons5 {
+    background-color: black;
+  }
+  
+  .news-icons1:hover {
+    width: 200px;
+    height: auto;
+  }
+  
+  .news-icons5:hover {
+    width: 200px;
+    height: auto;
+  }
+  
+  .news-icons2:hover {
+    width: 200px;
+    height: auto;
+  }
+  
+  .news-icons3:hover {
+    width: 200px;
+    height: auto;
+  }
+  
+  .news-icons4:hover {
+    width: 200px;
+    height: auto;
+  }
+  
+  .discount {
+    /* background-color: white; */
+    overflow: auto;
+    height: 500px;
+
+  }
+  
+  .discount-img {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin: auto;
+    background-color: white;
+  }
+  
+  .discount-img img {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .discount-info h2 {
+    font-size: 50px;
+    font-weight: 800px;
+    color: rgba(250, 0, 0, 0.7);
+  }
+  
+  .discount-info button {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border-color: rgba(250, 0, 0, 0.7);
+  
+    background-color: rgba(250, 0, 0, 0.7);
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 280px;
+  
+  }
+  
+  .discount-info {
+    float: left;
+    margin-right: 460px;
+    width: 600px;
+    padding-left: 20px;
+  }
+  
+  .discount-info h3 {
+    font-size: 30px;
+    font-weight: 800px;
+    color: darkblue;
+  
+  }
+  
+  .discount-info p {
+    font-size: 25px;
+  }
+  
+  .opioion {
+    background-color: rgba(0, 59, 121, 0.6);
+    height: 550px;
+  }
+  
+  .opioion-contenire {
+    width: 60%;
+    height: 430px;
+    background-color: white;
+    margin: auto;
+    transform: skew(-25deg);
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .opioion-contenire p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .opioion h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: rgba(250, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .opioion a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(250, 0, 0, 0.5);
+    font-size: 30px;
+  }
+  
+  
+  .opioion h3 {
+    font-size: 30px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+  }
+  
+  .underline1:hover .line {
+    width: 280px;
+  }
+  
+  .div1 {
+    width: 36px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50px;
+    float: left;
+    margin-left: 590px;
+  }
+  
+  .div2 {
+    width: 36px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50px;
+    float: left;
+    margin-left: 20px;
+  }
+  
+  .div3 {
+    width: 36px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50px;
+    float: left;
+    margin-left: 20px;
+  }
+  
+  .opioion-contenire img {
+    margin-left: 260px;
+    width: 50px;
+    height: auto;
+  }
+  
+  .div2:hover {
+    background-color: white;
+  }
+  
+  .div3:hover {
+    background-color: white;
+  }
+  .foot {
+    width: 100%;
+    background-color: rgba(0, 59, 121, 0.9);
+    height: 450px;
+    margin: auto;
+  }
+  
+  .footer-continre {
+    width: 100%;
+  
+  
+  }
+  
+  .foot1,
+  .foot2,
+  .foot3,
+  .foot4 {
+    float: left;
+    width: 22%;
+    padding-top: 40px;
+    padding-right: 60;
+  }
+  
+  .foot1 {
+    padding-left: 70;
+  }
+  
+  .foot2 {
+    margin-left: 4%;
+    margin-left: 4%;
+  }
+  
+  .foot3 {
+    margin-right: 4%;
+  }
+  
+  .foot2 a,
+  .foot3 a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 35px;
+    font-size: 20px;
+  }
+  
+  .foot2 h2 {
+    color: white;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .foot2 a:hover {
+    color: rgba(250, 0, 0, 0.9);
+  }
+  
+  .foot3 a:hover {
+    color: rgba(250, 0, 0, 0.9);
+  }
+  
+  .foot3 h2 {
+    color: white;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .foot4 input {
+    width: 300px;
+    height: 30px;
+    border-radius: 17px;
+    padding-left: 4px;
+    background-color: rgba(0, 59, 121, 0.6);
+    color: white;
+  }
+  
+  .foot4 h2,
+  .foot1 h2 {
+    color: white;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .foot4 textarea {
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: rgba(0, 59, 121, 0.6);
+    color: white;
+    padding-top: 2px;
+    padding-left: 8px;
+  }
+  
+  .foot4 button {
+    width: 180px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgba(250, 0, 0, 0.5);
+    border-color: rgba(250, 0, 0, 0.5);
+    padding-top: 2px;
+    padding-left: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 50px;
+    color: white;
+  }
+  
+  .foot1 p {
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  
+  .foot1 a {
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 15px;
+  }
+  
+  .copy {
+    width: 100%;
+    background-color: rgba(0, 59, 121, 0.8);
+    height: 60px;
+    position: relative;
+  }
+  
+  .copy p {
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+  }
+  
+  .logo1 {
+    display: inline;
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 415px;
+  }
+  .feature {
+    width: 100%;
+  }
+  
+  .feature-continre {
+    width: 80%;
+    height: 350px;
+    overflow: auto;
+    margin: auto;
+    padding-top: 40px;
+  
+  }
+  
+  .feature1,
+  .feature2,
+  .feature3,
+  .feature4 {
+    float: left;
+    width: 15%;
+    height: 130px;
+    border-right: solid rgba(250, 0, 0, 0.5);
+  
+  }
+
+  .feature5 {
+    float: left;
+    width: 15%;
+    height: 150px;
+  
+  }
+  
+  .feature2 {
+    margin-left: 5%;
+    margin-right: 5%;
+  
+  }
+  .feature1{
+margin-left: 5%;
+  }
+  
+  .feature3 {
+    margin-right: 5%;
+  }
+  
+  .feature4 {
+    margin-right: 5%;
+  }
+  
+  .feature {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .feature p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .feature img {
+    height: 130px;
+    transition: 0.2s;
+    width: 50px;
+  }
+  
+  .feature img:hover {
+    transform: translateY(-70px)
+  }
+  
+  .feature-title {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(250, 0, 0, 0.5);
+  }
+  
+  .feature-line:hover .line3{
+    width: 180px;
+   
+  }
+  
+  .feature-img {
+    height: 70px;
+    width: 50px;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-left: 30px;
+  
+  }
+  .line3 {
+    width: 100px;
+    height: 3px;
+    background-color: rgba(250, 0, 0, 0.5);
+    margin: auto;
+    transition: 0.2s;
+  }
+  
